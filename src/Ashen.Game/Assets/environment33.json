@@ -1,0 +1,3979 @@
+{
+  "version": 1,
+  "floors": {
+    "asphalt": [
+      "env33_floor_asphalt_0",
+      "env33_floor_asphalt_1",
+      "env33_floor_asphalt_2",
+      "env33_floor_asphalt_3"
+    ],
+    "concrete": [
+      "env33_floor_concrete_0",
+      "env33_floor_concrete_1",
+      "env33_floor_concrete_2",
+      "env33_floor_concrete_3"
+    ],
+    "concourse": [
+      "env33_floor_concourse_0",
+      "env33_floor_concourse_1",
+      "env33_floor_concourse_2",
+      "env33_floor_concourse_3"
+    ],
+    "vestibule": [
+      "env33_floor_vestibule_0",
+      "env33_floor_vestibule_1",
+      "env33_floor_vestibule_2",
+      "env33_floor_vestibule_3"
+    ],
+    "carpet": [
+      "env33_floor_carpet_0",
+      "env33_floor_carpet_1",
+      "env33_floor_carpet_2",
+      "env33_floor_carpet_3"
+    ],
+    "paper": [
+      "env33_floor_paper_0",
+      "env33_floor_paper_1",
+      "env33_floor_paper_2",
+      "env33_floor_paper_3"
+    ],
+    "cafe": [
+      "env33_floor_cafe_0",
+      "env33_floor_cafe_1",
+      "env33_floor_cafe_2",
+      "env33_floor_cafe_3"
+    ],
+    "gourmet": [
+      "env33_floor_gourmet_0",
+      "env33_floor_gourmet_1",
+      "env33_floor_gourmet_2",
+      "env33_floor_gourmet_3"
+    ],
+    "shelter": [
+      "env33_floor_shelter_0",
+      "env33_floor_shelter_1",
+      "env33_floor_shelter_2",
+      "env33_floor_shelter_3"
+    ]
+  },
+  "props": {
+    "desk": "env33_prop_desk",
+    "shelf": "env33_prop_shelf",
+    "counter": "env33_prop_counter",
+    "cot": "env33_prop_cot",
+    "crate": "env33_prop_crate",
+    "table": "env33_prop_table",
+    "chair": "env33_prop_chair",
+    "planter": "env33_prop_planter",
+    "poster": "env33_prop_poster",
+    "glass": "env33_decal_glass",
+    "spill": "env33_decal_spill",
+    "rubble": "env33_decal_rubble"
+  },
+  "propOverrides": {
+    "prop.mall.travel-a": "env33_prop_desk",
+    "prop.mall.travel-b": "env33_prop_desk",
+    "prop.mall.office-desk": "env33_prop_office-desk",
+    "prop.mall.barista": "env33_prop_coffee-counter",
+    "prop.mall.gourmet-counter": "env33_prop_deli-counter",
+    "prop.mall.fridge": "env33_prop_fridge",
+    "prop.mall.cafe-machine": "env33_prop_coffee-machine",
+    "prop.mall.gourmet-shelf0": "env33_prop_food-shelf",
+    "prop.mall.gourmet-shelf1": "env33_prop_food-shelf",
+    "prop.mall.gourmet-shelf2": "env33_prop_food-shelf",
+    "prop.lower.01.0": "env33b_fixture_travel-feature",
+    "prop.lower.01.1": "env33b_fixture_travel-feature",
+    "prop.lower.01.2": "env33_prop_poster",
+    "prop.lower.01.3": "env33b_fixture_travel-seating",
+    "prop.lower.01.back.0": "env33b_fixture_travel-stock",
+    "prop.lower.01.back.1": "env33b_fixture_travel-stock",
+    "prop.lower.01.back.2": "env33b_fixture_travel-stock",
+    "prop.lower.02.0": "env33b_fixture_stationery-display",
+    "prop.lower.02.1": "env33b_fixture_stationery-seating",
+    "prop.lower.02.2": "env33b_fixture_stationery-feature",
+    "prop.lower.02.3": "env33b_fixture_stationery-display",
+    "prop.lower.02.back.0": "env33b_fixture_stationery-stock",
+    "prop.lower.02.back.1": "env33b_fixture_stationery-stock",
+    "prop.lower.02.back.2": "env33b_fixture_stationery-stock",
+    "prop.lower.03.0": "env33b_fixture_coffee-feature",
+    "prop.lower.03.1": "env33b_fixture_coffee-seating",
+    "prop.lower.03.2": "env33b_fixture_coffee-feature",
+    "prop.lower.03.back.0": "env33b_fixture_coffee-stock",
+    "prop.lower.03.back.1": "env33b_fixture_coffee-stock",
+    "prop.lower.03.back.2": "env33b_fixture_coffee-stock",
+    "prop.lower.04.0": "env33b_fixture_deli-display",
+    "prop.lower.04.1": "env33b_fixture_deli-seating",
+    "prop.lower.04.2": "env33b_fixture_deli-feature",
+    "prop.lower.04.3": "env33b_fixture_deli-display",
+    "prop.lower.04.back.0": "env33b_fixture_deli-stock",
+    "prop.lower.04.back.1": "env33b_fixture_deli-stock",
+    "prop.lower.04.back.2": "env33b_fixture_deli-stock",
+    "prop.lower.05.0": "env33b_fixture_coffee-feature",
+    "prop.lower.05.1": "env33b_fixture_coffee-seating",
+    "prop.lower.05.2": "env33b_fixture_coffee-feature",
+    "prop.lower.05.back.0": "env33b_fixture_coffee-stock",
+    "prop.lower.05.back.1": "env33b_fixture_coffee-stock",
+    "prop.lower.05.back.2": "env33b_fixture_coffee-stock",
+    "prop.lower.06.1": "env33b_fixture_optical-feature",
+    "prop.lower.06.2": "env33b_wall_optical",
+    "prop.lower.06.3": "env33b_fixture_optical-display",
+    "prop.lower.06.back.0": "env33b_fixture_optical-stock",
+    "prop.lower.06.back.1": "env33b_fixture_optical-stock",
+    "prop.lower.06.back.2": "env33b_fixture_optical-stock",
+    "prop.lower.07.0": "env33b_fixture_market-display",
+    "prop.lower.07.1": "env33b_fixture_market-seating",
+    "prop.lower.07.2": "env33b_fixture_market-feature",
+    "prop.lower.07.3": "env33b_fixture_market-display",
+    "prop.lower.07.back.0": "env33b_fixture_market-stock",
+    "prop.lower.07.back.1": "env33b_fixture_market-stock",
+    "prop.lower.07.back.2": "env33b_fixture_market-stock",
+    "prop.lower.08.1": "env33b_fixture_optical-feature",
+    "prop.lower.08.2": "env33b_wall_optical",
+    "prop.lower.08.3": "env33b_fixture_optical-display",
+    "prop.lower.08.back.0": "env33b_fixture_optical-stock",
+    "prop.lower.08.back.1": "env33b_fixture_optical-stock",
+    "prop.lower.08.back.2": "env33b_fixture_optical-stock",
+    "prop.lower.09.0": "env33b_fixture_bakery-feature",
+    "prop.lower.09.1": "env33b_fixture_bakery-seating",
+    "prop.lower.09.2": "env33b_fixture_bakery-feature",
+    "prop.lower.09.back.0": "env33b_fixture_bakery-stock",
+    "prop.lower.09.back.1": "env33b_fixture_bakery-stock",
+    "prop.lower.09.back.2": "env33b_fixture_bakery-stock",
+    "prop.lower.10.0": "env33b_fixture_home-display",
+    "prop.lower.10.1": "env33b_fixture_home-seating",
+    "prop.lower.10.2": "env33b_fixture_home-feature",
+    "prop.lower.10.3": "env33b_fixture_home-display",
+    "prop.lower.10.back.0": "env33b_fixture_home-stock",
+    "prop.lower.10.back.1": "env33b_fixture_home-stock",
+    "prop.lower.10.back.2": "env33b_fixture_home-stock",
+    "prop.lower.11.0": "env33b_fixture_garden-display",
+    "prop.lower.11.1": "env33b_fixture_garden-display",
+    "prop.lower.11.2": "env33b_fixture_garden-display",
+    "prop.lower.11.back.0": "env33b_fixture_garden-stock",
+    "prop.lower.11.back.1": "env33b_fixture_garden-stock",
+    "prop.lower.11.back.2": "env33b_fixture_garden-stock",
+    "prop.lower.12.0": "env33b_fixture_records-display",
+    "prop.lower.12.1": "env33b_fixture_records-seating",
+    "prop.lower.12.2": "env33b_fixture_records-feature",
+    "prop.lower.12.3": "env33b_fixture_records-display",
+    "prop.lower.12.back.0": "env33b_fixture_records-stock",
+    "prop.lower.12.back.1": "env33b_fixture_records-stock",
+    "prop.lower.12.back.2": "env33b_fixture_records-stock",
+    "prop.lower.13.0": "env33b_fixture_thrift-display",
+    "prop.lower.13.1": "env33b_fixture_thrift-seating",
+    "prop.lower.13.2": "env33b_fixture_thrift-feature",
+    "prop.lower.13.3": "env33b_fixture_thrift-display",
+    "prop.lower.13.back.0": "env33b_fixture_thrift-stock",
+    "prop.lower.13.back.1": "env33b_fixture_thrift-stock",
+    "prop.lower.13.back.2": "env33b_fixture_thrift-stock",
+    "prop.lower.14.0": "env33b_fixture_bikes-display",
+    "prop.lower.14.1": "env33b_fixture_bikes-seating",
+    "prop.lower.14.2": "env33b_fixture_bikes-feature",
+    "prop.lower.14.3": "env33b_fixture_bikes-display",
+    "prop.lower.14.back.0": "env33b_fixture_bikes-stock",
+    "prop.lower.14.back.1": "env33b_fixture_bikes-stock",
+    "prop.lower.14.back.2": "env33b_fixture_bikes-stock",
+    "prop.lower.15.0": "env33b_fixture_garden-display",
+    "prop.lower.15.1": "env33b_fixture_garden-display",
+    "prop.lower.15.2": "env33b_fixture_garden-display",
+    "prop.lower.15.back.0": "env33b_fixture_garden-stock",
+    "prop.lower.15.back.1": "env33b_fixture_garden-stock",
+    "prop.lower.15.back.2": "env33b_fixture_garden-stock",
+    "prop.lower.16.1": "env33b_fixture_electronics-feature",
+    "prop.lower.16.2": "env33b_wall_electronics",
+    "prop.lower.16.3": "env33b_fixture_electronics-display",
+    "prop.lower.16.back.0": "env33b_fixture_electronics-stock",
+    "prop.lower.16.back.1": "env33b_fixture_electronics-stock",
+    "prop.lower.16.back.2": "env33b_fixture_electronics-stock",
+    "prop.lower.17.1": "env33b_fixture_beauty-feature",
+    "prop.lower.17.2": "env33b_wall_beauty",
+    "prop.lower.17.3": "env33b_fixture_beauty-display",
+    "prop.lower.17.back.0": "env33b_fixture_beauty-stock",
+    "prop.lower.17.back.1": "env33b_fixture_beauty-stock",
+    "prop.lower.17.back.2": "env33b_fixture_beauty-stock",
+    "prop.lower.18.0": "env33b_fixture_retro-display",
+    "prop.lower.18.1": "env33b_fixture_retro-seating",
+    "prop.lower.18.2": "env33b_fixture_retro-feature",
+    "prop.lower.18.3": "env33b_fixture_retro-display",
+    "prop.lower.18.back.0": "env33b_fixture_retro-stock",
+    "prop.lower.18.back.1": "env33b_fixture_retro-stock",
+    "prop.lower.18.back.2": "env33b_fixture_retro-stock",
+    "prop.lower.bench.10": "env33b_fixture_home-seating",
+    "prop.lower.bench.22": "env33b_fixture_home-seating",
+    "prop.lower.bench.34": "env33b_fixture_home-seating",
+    "prop.lower.north.bench.10": "env33b_fixture_home-seating",
+    "prop.lower.north.bench.22": "env33b_fixture_home-seating",
+    "prop.lower.north.bench.34": "env33b_fixture_home-seating",
+    "prop.lower.final.bench.10": "env33b_fixture_home-seating",
+    "prop.lower.final.bench.22": "env33b_fixture_home-seating",
+    "prop.lower.final.bench.34": "env33b_fixture_home-seating"
+  },
+  "features": {
+    "container": "env33_feature_container",
+    "empty": "env33_feature_empty",
+    "stockpile": "env33_feature_stockpile",
+    "workbench": "env33_feature_workbench",
+    "directory": "env33_feature_directory",
+    "notice": "env33_feature_notice"
+  },
+  "areas": {
+    "area.mall.southwest": {
+      "decals": [
+        {
+          "texture": "env33_decal_mat",
+          "x": 2,
+          "y": 15,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 6,
+          "y": 15,
+          "width": 2,
+          "height": 2
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 9,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 17,
+          "y": 15,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 29,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_glass",
+          "x": 12,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_spill",
+          "x": 15,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 29,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 12,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_mat",
+          "x": 12,
+          "y": 26,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 14,
+          "y": 27,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 20,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_spill",
+          "x": 36,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_glass",
+          "x": 32,
+          "y": 19,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "BREWED AWAKENING",
+          "x": 13,
+          "y": 13,
+          "theme": "cafe"
+        },
+        {
+          "label": "GOURMET GLUTTON",
+          "x": 32,
+          "y": 13,
+          "theme": "gourmet"
+        },
+        {
+          "label": "WANDERLUST GETAWAYS",
+          "x": 13,
+          "y": 18,
+          "theme": "carpet"
+        },
+        {
+          "label": "PAPER HAVEN",
+          "x": 32,
+          "y": 18,
+          "theme": "paper"
+        },
+        {
+          "label": "OFFICE REFUGE",
+          "x": 12,
+          "y": 25,
+          "theme": "shelter"
+        }
+      ]
+    },
+    "area.lower.01": {
+      "floors": {
+        "zone.lower.01.front": [
+          "env33b_floor_01_0",
+          "env33b_floor_01_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_travel",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_travel",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_travel",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_travel",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_travel",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_travel",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#1 WANDERLUST GETAWAYS",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            81,
+            125,
+            145
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            81,
+            125,
+            145
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            81,
+            125,
+            145
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.01.b": "env33b_portal_01"
+      }
+    },
+    "area.lower.02": {
+      "floors": {
+        "zone.lower.02.front": [
+          "env33b_floor_02_0",
+          "env33b_floor_02_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_stationery",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_stationery",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_stationery",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_stationery",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_stationery",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_stationery",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#2 PAPER HAVEN",
+          "x": 6,
+          "y": 25,
+          "theme": "paper",
+          "color": [
+            179,
+            147,
+            88
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "paper",
+          "color": [
+            179,
+            147,
+            88
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "paper",
+          "color": [
+            179,
+            147,
+            88
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.02.b": "env33b_portal_02"
+      }
+    },
+    "area.lower.03": {
+      "floors": {
+        "zone.lower.03.front": [
+          "env33b_floor_03_0",
+          "env33b_floor_03_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#3 BREWED AWAKENING",
+          "x": 6,
+          "y": 25,
+          "theme": "cafe",
+          "color": [
+            136,
+            91,
+            61
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "cafe",
+          "color": [
+            136,
+            91,
+            61
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "cafe",
+          "color": [
+            136,
+            91,
+            61
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.03.b": "env33b_portal_03"
+      }
+    },
+    "area.lower.04": {
+      "floors": {
+        "zone.lower.04.front": [
+          "env33b_floor_04_0",
+          "env33b_floor_04_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_deli",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_deli",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_deli",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_deli",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_deli",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_deli",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#4 GOURMET GLUTTON",
+          "x": 6,
+          "y": 25,
+          "theme": "gourmet",
+          "color": [
+            137,
+            136,
+            78
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            137,
+            136,
+            78
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            137,
+            136,
+            78
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.04.b": "env33b_portal_04"
+      }
+    },
+    "area.lower.05": {
+      "floors": {
+        "zone.lower.05.front": [
+          "env33b_floor_05_0",
+          "env33b_floor_05_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_coffee",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#5 DAILY GRIND",
+          "x": 6,
+          "y": 25,
+          "theme": "cafe",
+          "color": [
+            106,
+            80,
+            64
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "cafe",
+          "color": [
+            106,
+            80,
+            64
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "cafe",
+          "color": [
+            106,
+            80,
+            64
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.05.b": "env33b_portal_05"
+      }
+    },
+    "area.lower.06": {
+      "floors": {
+        "zone.lower.06.front": [
+          "env33b_floor_06_0",
+          "env33b_floor_06_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#6 CLEAR VISION",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            85,
+            151,
+            132
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            85,
+            151,
+            132
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            85,
+            151,
+            132
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.06.b": "env33b_portal_06"
+      }
+    },
+    "area.lower.07": {
+      "floors": {
+        "zone.lower.07.front": [
+          "env33b_floor_07_0",
+          "env33b_floor_07_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_market",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_market",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_market",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_market",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_market",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_market",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#7 MEGAMART",
+          "x": 6,
+          "y": 25,
+          "theme": "gourmet",
+          "color": [
+            128,
+            153,
+            124
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            128,
+            153,
+            124
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            128,
+            153,
+            124
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.07.b": "env33b_portal_07"
+      }
+    },
+    "area.lower.08": {
+      "floors": {
+        "zone.lower.08.front": [
+          "env33b_floor_08_0",
+          "env33b_floor_08_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_optical",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#8 SHARP SIGHT",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            89,
+            114,
+            131
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            89,
+            114,
+            131
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            89,
+            114,
+            131
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.08.b": "env33b_portal_08"
+      }
+    },
+    "area.lower.09": {
+      "floors": {
+        "zone.lower.09.front": [
+          "env33b_floor_09_0",
+          "env33b_floor_09_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bakery",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bakery",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bakery",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bakery",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bakery",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bakery",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#9 SWEET CRAVINGS BAKERY",
+          "x": 6,
+          "y": 25,
+          "theme": "cafe",
+          "color": [
+            171,
+            126,
+            127
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "cafe",
+          "color": [
+            171,
+            126,
+            127
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "cafe",
+          "color": [
+            171,
+            126,
+            127
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.09.b": "env33b_portal_09"
+      }
+    },
+    "area.lower.10": {
+      "floors": {
+        "zone.lower.10.front": [
+          "env33b_floor_10_0",
+          "env33b_floor_10_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_home",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_home",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_home",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_home",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_home",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_home",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#10 URBAN NEST",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            143,
+            128,
+            103
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            143,
+            128,
+            103
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            143,
+            128,
+            103
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.10.b": "env33b_portal_10"
+      }
+    },
+    "area.lower.11": {
+      "floors": {
+        "zone.lower.11.front": [
+          "env33b_floor_11_0",
+          "env33b_floor_11_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#11 BLOOM & GROW",
+          "x": 6,
+          "y": 25,
+          "theme": "gourmet",
+          "color": [
+            96,
+            138,
+            83
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            96,
+            138,
+            83
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            96,
+            138,
+            83
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.11.b": "env33b_portal_11"
+      }
+    },
+    "area.lower.12": {
+      "floors": {
+        "zone.lower.12.front": [
+          "env33b_floor_12_0",
+          "env33b_floor_12_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_records",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_records",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_records",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_records",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_records",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_records",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#12 SOUNDWAVE RECORDS",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            109,
+            120,
+            155
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            109,
+            120,
+            155
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            109,
+            120,
+            155
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.12.b": "env33b_portal_12"
+      }
+    },
+    "area.lower.13": {
+      "floors": {
+        "zone.lower.13.front": [
+          "env33b_floor_13_0",
+          "env33b_floor_13_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cloth",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_thrift",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_thrift",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_thrift",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_thrift",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_thrift",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_thrift",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#13 SECOND TIME AROUND",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            146,
+            122,
+            99
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            146,
+            122,
+            99
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            146,
+            122,
+            99
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.13.b": "env33b_portal_13"
+      }
+    },
+    "area.lower.14": {
+      "floors": {
+        "zone.lower.14.front": [
+          "env33b_floor_14_0",
+          "env33b_floor_14_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_paper",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bikes",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bikes",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bikes",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bikes",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bikes",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_bikes",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#14 PEDAL POWER",
+          "x": 6,
+          "y": 25,
+          "theme": "paper",
+          "color": [
+            147,
+            101,
+            67
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "paper",
+          "color": [
+            147,
+            101,
+            67
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "paper",
+          "color": [
+            147,
+            101,
+            67
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.14.b": "env33b_portal_14"
+      }
+    },
+    "area.lower.15": {
+      "floors": {
+        "zone.lower.15.front": [
+          "env33b_floor_15_0",
+          "env33b_floor_15_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_leaves",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_garden",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#15 ROOT & VINE",
+          "x": 6,
+          "y": 25,
+          "theme": "gourmet",
+          "color": [
+            77,
+            125,
+            102
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            77,
+            125,
+            102
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "gourmet",
+          "color": [
+            77,
+            125,
+            102
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.15.b": "env33b_portal_15"
+      }
+    },
+    "area.lower.16": {
+      "floors": {
+        "zone.lower.16.front": [
+          "env33b_floor_16_0",
+          "env33b_floor_16_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_cables",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cables",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cables",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cables",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cables",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cables",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_cables",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_electronics",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_electronics",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_electronics",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_electronics",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_electronics",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_electronics",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#16 TECH HAVEN",
+          "x": 6,
+          "y": 25,
+          "theme": "paper",
+          "color": [
+            84,
+            132,
+            150
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "paper",
+          "color": [
+            84,
+            132,
+            150
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "paper",
+          "color": [
+            84,
+            132,
+            150
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.16.b": "env33b_portal_16"
+      }
+    },
+    "area.lower.17": {
+      "floors": {
+        "zone.lower.17.front": [
+          "env33b_floor_17_0",
+          "env33b_floor_17_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_ceramic",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_beauty",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_beauty",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_beauty",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_beauty",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_beauty",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_beauty",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#17 BEAUTY BLISS",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            151,
+            110,
+            143
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            151,
+            110,
+            143
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            151,
+            110,
+            143
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.17.b": "env33b_portal_17"
+      }
+    },
+    "area.lower.18": {
+      "floors": {
+        "zone.lower.18.front": [
+          "env33b_floor_18_0",
+          "env33b_floor_18_1"
+        ]
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 8,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 20,
+          "y": 23,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 28,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 33,
+          "y": 24,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 36,
+          "y": 18,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 8,
+          "y": 11,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_tracks",
+          "x": 20,
+          "y": 12,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_vinyl",
+          "x": 35,
+          "y": 10,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_retro",
+          "x": 4,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_retro",
+          "x": 8,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_retro",
+          "x": 16,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_retro",
+          "x": 20,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_retro",
+          "x": 27,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_wall_retro",
+          "x": 35,
+          "y": 17,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "#18 RETRO REVIVAL",
+          "x": 6,
+          "y": 25,
+          "theme": "carpet",
+          "color": [
+            101,
+            145,
+            126
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STOCKROOM",
+          "x": 12,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            101,
+            145,
+            126
+          ],
+          "maxWidthTiles": 4.5
+        },
+        {
+          "label": "STAFF ONLY",
+          "x": 31,
+          "y": 16,
+          "theme": "carpet",
+          "color": [
+            101,
+            145,
+            126
+          ],
+          "maxWidthTiles": 4.5
+        }
+      ],
+      "features": {
+        "route.lower.18.b": "env33b_portal_18"
+      }
+    },
+    "area.lower.concourse": {
+      "floors": {},
+      "features": {
+        "route.lower.refuge.b": "env33b_portal_wayfinding",
+        "route.lower.01.a": "env33b_portal_01",
+        "route.lower.02.a": "env33b_portal_02",
+        "route.lower.03.a": "env33b_portal_03",
+        "route.lower.04.a": "env33b_portal_04",
+        "route.lower.05.a": "env33b_portal_05",
+        "route.lower.06.a": "env33b_portal_06",
+        "route.lower.07.a": "env33b_portal_07",
+        "route.lower.08.a": "env33b_portal_08",
+        "route.lower.09.a": "env33b_portal_09",
+        "route.lower.10.a": "env33b_portal_10",
+        "route.lower.11.a": "env33b_portal_11",
+        "route.lower.12.a": "env33b_portal_12",
+        "route.lower.13.a": "env33b_portal_13",
+        "route.lower.14.a": "env33b_portal_14",
+        "route.lower.15.a": "env33b_portal_15",
+        "route.lower.16.a": "env33b_portal_16",
+        "route.lower.17.a": "env33b_portal_17",
+        "route.lower.18.a": "env33b_portal_18",
+        "route.lower.north.a": "env33b_portal_wayfinding"
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 7,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 7,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 8,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 12,
+          "y": 21,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 14,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 21,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 21,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 27,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 28,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 34,
+          "y": 9,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 35,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 35,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 38,
+          "y": 16,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 42,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 42,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "OFFICE REFUGE",
+          "x": 3,
+          "y": 15,
+          "theme": "shelter",
+          "color": [
+            87,
+            134,
+            126
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#1 WANDERLUST GETAWAYS",
+          "x": 5,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            81,
+            125,
+            145
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#2 PAPER HAVEN",
+          "x": 9,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            179,
+            147,
+            88
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#3 BREWED AWAKENING",
+          "x": 5,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            136,
+            91,
+            61
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#4 GOURMET GLUTTON",
+          "x": 9,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            137,
+            136,
+            78
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#5 DAILY GRIND",
+          "x": 13,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            106,
+            80,
+            64
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#6 CLEAR VISION",
+          "x": 17,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            85,
+            151,
+            132
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#7 MEGAMART",
+          "x": 13,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            128,
+            153,
+            124
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#8 SHARP SIGHT",
+          "x": 17,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            89,
+            114,
+            131
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#9 SWEET CRAVINGS BAKERY",
+          "x": 21,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            171,
+            126,
+            127
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#10 URBAN NEST",
+          "x": 21,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            143,
+            128,
+            103
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#11 BLOOM & GROW",
+          "x": 25,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            96,
+            138,
+            83
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#12 SOUNDWAVE RECORDS",
+          "x": 25,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            109,
+            120,
+            155
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#13 SECOND TIME AROUND",
+          "x": 29,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            146,
+            122,
+            99
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#14 PEDAL POWER",
+          "x": 29,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            147,
+            101,
+            67
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#15 ROOT & VINE",
+          "x": 33,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            77,
+            125,
+            102
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#16 TECH HAVEN",
+          "x": 33,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            84,
+            132,
+            150
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#17 BEAUTY BLISS",
+          "x": 37,
+          "y": 21,
+          "theme": "shelter",
+          "color": [
+            151,
+            110,
+            143
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "#18 RETRO REVIVAL",
+          "x": 37,
+          "y": 10,
+          "theme": "shelter",
+          "color": [
+            101,
+            145,
+            126
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "CONTINUE LOWER MALL",
+          "x": 42,
+          "y": 15,
+          "theme": "shelter",
+          "color": [
+            87,
+            134,
+            126
+          ],
+          "maxWidthTiles": 3.6
+        }
+      ]
+    },
+    "area.lower.north": {
+      "floors": {},
+      "features": {
+        "route.lower.north.b": "env33b_portal_wayfinding",
+        "route.lower.final.a": "env33b_portal_wayfinding"
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 7,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 7,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 8,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 12,
+          "y": 21,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 14,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 21,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 21,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 27,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 28,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 34,
+          "y": 9,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 35,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 35,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 38,
+          "y": 16,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 42,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 42,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "CONTINUE LOWER MALL",
+          "x": 3,
+          "y": 15,
+          "theme": "shelter",
+          "color": [
+            87,
+            134,
+            126
+          ],
+          "maxWidthTiles": 3.6
+        },
+        {
+          "label": "CONTINUE LOWER MALL",
+          "x": 42,
+          "y": 15,
+          "theme": "shelter",
+          "color": [
+            87,
+            134,
+            126
+          ],
+          "maxWidthTiles": 3.6
+        }
+      ]
+    },
+    "area.lower.east": {
+      "floors": {},
+      "features": {
+        "route.lower.final.b": "env33b_portal_wayfinding"
+      },
+      "decals": [
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 7,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 7,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 8,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 12,
+          "y": 21,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 14,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 14,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 21,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 21,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 27,
+          "y": 22,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 28,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 28,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 34,
+          "y": 9,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 35,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 35,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33_decal_litter",
+          "x": 38,
+          "y": 16,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 42,
+          "y": 14,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "texture": "env33b_detail_wayfinding",
+          "x": 42,
+          "y": 20,
+          "width": 1,
+          "height": 1
+        }
+      ],
+      "signs": [
+        {
+          "label": "CONTINUE LOWER MALL",
+          "x": 3,
+          "y": 15,
+          "theme": "shelter",
+          "color": [
+            87,
+            134,
+            126
+          ],
+          "maxWidthTiles": 3.6
+        }
+      ]
+    }
+  }
+}

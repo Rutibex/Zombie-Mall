@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <ItemGroup><None Include="../../content/campaigns/**/*.json" Link="Campaigns/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" /></ItemGroup>
+</Project>

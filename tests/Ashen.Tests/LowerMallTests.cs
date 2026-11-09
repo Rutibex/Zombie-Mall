@@ -1,0 +1,45 @@
+using Ashen.Core;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+static class LowerMallTests
+{
+ public static void Run(Action<bool,string> check,bool route=true)
+ {
+  var production=CampaignLoader.Load(CampaignLoader.BundledLower18Path);string path=Path.Combine(Path.GetTempPath(),"zombie-lower-"+Guid.NewGuid()+".json");
+  check(production.SchemaVersion==20&&production.Areas.Count==20&&production.LowerMall!.Sites.Count==18,"Phase 22 eighteen numbered source interiors connect through a real concourse and refuge access");
+  check(production.LowerMall!.Sites.All(s=>s.BookText.Length>1000&&s.Source.PageStart>=195&&s.Source.PageEnd<=241)&&production.LowerMall.Sites.Sum(s=>s.Actions.Count)>330,"Phase 22 full source entries, table catalogue and physical interactions are retained");
+  var w=World.New(production);check(w.LowerMallStates.Count==0&&w.Actors.All(a=>!w.LowerMallReservedActor(a.Id))&&w.LowerMallXpAwarded==0,"Phase 22 dormant locations introduce no actors, loot transfers or XP into the refuge");string before=JsonSerializer.Serialize(w);foreach(var s in production.LowerMall.Sites)w.LowerMallProgress(s.Number);check(before==JsonSerializer.Serialize(w),"Phase 22 directory browsing is pure");
+  World Fixture(int n)
+  {
+   var d=CampaignLoader.Clone(production);var site=d.LowerMall!.Sites.Single(s=>s.Number==n);var start=d.Areas.Single(a=>a.Id==site.AreaId);var origin=d.Areas.Single(a=>a.Id==d.StartAreaId);var party=origin.Actors.Where(p=>!d.Actors.Single(a=>a.Id==p.ActorId).Enemy&&!d.Actors.Single(a=>a.Id==p.ActorId).Recruitable).ToArray();origin.Actors.RemoveAll(p=>party.Contains(p));int i=0;foreach(var p in party){p.Position=new(8+i++,26);start.Actors.Add(p);}d.StartAreaId=start.Id;var result=World.New(d);return result;
+  }
+  void Beside(World world,LowerMallAction action){world.StopAll();foreach(var f in world.Features.Where(f=>f.Kind=="door"))f.Used=true;world.PartyLeader.Pos=world.Features.Single(f=>f.Id==action.FeatureId).Pos;world.Reveal();}
+  void ClearFixture(World world){for(int i=0;i<6&&world.Actors.Any(a=>a.Enemy&&a.Alive);i++)foreach(var enemy in world.Actors.Where(a=>a.Enemy&&a.Alive).ToArray())world.ResolveCampaignHazard(enemy,1000,DamageType.Fire);world.Mode=Mode.Explore;world.Order.Clear();}
+  for(int n=1;n<=18;n++)
+  {
+   w=Fixture(n);var site=w.CurrentLowerMallSite!;var state=w.LowerMallProgress(n)!;var actor=w.PartyLeader;
+   check(state.EncounterRoll>=1&&state.EncounterRoll<=site.EncounterSides&&state.Releases.Select(r=>r.EncounterId).Distinct().Count()==state.Releases.Count,"Phase 22 shop "+n+" rolls and owns its finite entry threat exactly once");
+   string? captures=Environment.GetEnvironmentVariable("ZOMBIE_MALL_LOWER_CAPTURE_DIR");if(!string.IsNullOrWhiteSpace(captures)&&n is 1 or 7 or 11 or 16 or 18){Directory.CreateDirectory(captures);w.Save(Path.Combine(captures,$"shop-{n:00}.json"));}
+   var hazard=site.Actions.Single(a=>a.Id==state.HazardId);Beside(w,hazard);before=JsonSerializer.Serialize(w);w.LowerMallActionReason(actor,hazard.Id);check(before==JsonSerializer.Serialize(w),"Phase 22 shop "+n+" action preview is pure");
+   check(w.PerformLowerMallAction(actor,hazard.Id)&&state.HazardResolved&&!w.PerformLowerMallAction(actor,hazard.Id),"Phase 22 shop "+n+" resolves only its saved entrance hazard, once");
+   var cache=site.Actions.First(a=>a.Kind=="loot"&&a.Dc==0&&a.RequiredActionId=="");Beside(w,cache);var feature=w.Features.Single(f=>f.Id==cache.FeatureId);int serial=w.NextItemInstanceNumber,minute=w.CampaignMinutes;
+   check(w.TakeAllContainer(actor,feature)==0&&w.PerformLowerMallAction(actor,cache.Id)&&w.CampaignMinutes==minute+cache.Minutes&&w.NextItemInstanceNumber==serial,"Phase 22 shop "+n+" guards source cache ownership until the actual timed search");
+   check(w.TakeAllContainer(actor,feature)>0&&feature.Contents.Items.Count==0&&!w.PerformLowerMallAction(actor,cache.Id),"Phase 22 shop "+n+" transfers existing goods and cannot duplicate them by searching again");
+   // Deliberately isolated damage fixtures; the production expedition uses normal combat instead.
+   ClearFixture(w);var back=site.Actions.Single(a=>a.Id.EndsWith(".back"));Beside(w,back);check(w.PerformLowerMallAction(actor,back.Id),"Phase 22 shop "+n+" activates its distinct source back-room threat");ClearFixture(w);
+   if(state.Events.Contains("gas-active")){var fix=site.Actions.Single(a=>a.Effect=="gas");Beside(w,fix);for(int i=0;i<30&&!state.Resolved.Contains(fix.Id);i++)w.PerformLowerMallAction(actor,fix.Id);}
+   w.UpdateMovement(.001f);w.StopAll();actor.Pos=w.Features.Single(f=>f.Id==$"feature.lower.{n:00}.secure").Pos;w.Reveal();int xp=w.LowerMallXpAwarded+w.LowerMallXpRemainder;
+   check(w.SecureLowerMall(actor)&&state.Secured&&w.HasDialogueFlag($"flag.lower.{n:00}.secured")&&w.LowerMallXpAwarded+w.LowerMallXpRemainder==xp+site.SecureXp,"Phase 22 shop "+n+" pays its own printed securing milestone exactly once");
+   xp=w.LowerMallXpAwarded+w.LowerMallXpRemainder;check(!w.SecureLowerMall(actor)&&w.LowerMallXpAwarded+w.LowerMallXpRemainder==xp,"Phase 22 shop "+n+" cannot farm repeated securing XP");
+   w.Save(path);var loaded=World.Load(path);check(loaded.LowerMallProgress(n)!.Secured&&loaded.LowerMallXpAwarded==w.LowerMallXpAwarded&&loaded.Features.Single(f=>f.Id==cache.FeatureId).Contents.Items.Count==0,"Phase 22 shop "+n+" saves/reloads its rolled actors, corpses, emptied caches and milestones");
+  }
+  w=Fixture(5);var user=w.PartyLeader;w.AddItem(user,"item.lower.05.loot2.0");check(w.UseOwnedItem(user,user.Inventory.Items.Single(i=>i.ItemId=="item.lower.05.loot2.0").InstanceId)&&user.Character.HasCondition("book-caffeine"),"Phase 22 a real caffeine pill is spent and grants the initiative effect");w.AdvanceCampaignSeconds(3600);check(!user.Character.HasCondition("book-caffeine"),"Phase 22 caffeine expires after an actual campaign hour");
+  w=Fixture(11);user=w.PartyLeader;w.AddItem(user,"item.lower.11.loot1.0");var kit=user.Inventory.Items.Single(i=>i.ItemId=="item.lower.11.loot1.0");check(kit.Charges==10,"Phase 22 herbal medicine starts with its printed ten uses");for(int i=0;i<9;i++)check(w.UseOwnedItem(user,kit.InstanceId),"Phase 22 herbal charge "+(i+1)+" is physically consumed");check(kit.Charges==1&&w.UseOwnedItem(user,kit.InstanceId)&&user.Inventory.FindInstance(kit.InstanceId)==null,"Phase 22 tenth herbal charge exhausts the owned kit");
+  w=Fixture(16);user=w.PartyLeader;var backCyber=w.CurrentLowerMallSite!.Actions.Single(a=>a.Id.EndsWith(".back"));Beside(w,backCyber);w.PerformLowerMallAction(user,backCyber.Id);var cyber=w.Actors.First(a=>a.Name=="Cyber-Zombie");w.AddItem(user,"item.lower.16.loot5.0");string emp=user.Inventory.Items.Single(i=>i.ItemId=="item.lower.16.loot5.0").InstanceId;check(w.UseOwnedItem(user,emp)&&user.Inventory.FindInstance(emp)==null&&cyber.Character.HasCondition("stunned"),"Phase 22 the owned EMP is consumed and stuns the nearby cyber-zombie");w.AdvanceCampaignSeconds(6);check(!cyber.Character.HasCondition("stunned"),"Phase 22 a one-round stun ends after six simulated seconds");var glock=w.Features.Single(f=>f.Id=="feature.lower.16.extra.safe").Contents.Items.Single(i=>i.ItemId=="item.lower.16.safe.0");check(glock.LoadedAmmunition?.Quantity==12,"Phase 22 the loaded source safe handgun has finite compatible rounds");
+  w=Fixture(11);var blooming=w.CurrentLowerMallSite!.Actions.Single(a=>a.Id.EndsWith(".back"));Beside(w,blooming);w.PerformLowerMallAction(w.PartyLeader,blooming.Id);var bloom=w.Actors.First(a=>a.Name=="The Blooming One");int hp=bloom.Hp;w.ResolveCampaignHazard(bloom,5,DamageType.Fire);check(bloom.Hp==hp-10,"Phase 22 Blooming One receives exactly double fire damage");
+  w=Fixture(1);w.Save(path);string saved=File.ReadAllText(path);void Reject(Action<JsonNode> change,string name){var n=JsonNode.Parse(saved)!;change(n);File.WriteAllText(path,n.ToJsonString());bool rejected=false;try{World.Load(path);}catch{rejected=true;}check(rejected,"Phase 22 rejects "+name);}
+  Reject(n=>n["LowerMallStates"]![0]!["EncounterRoll"]=7,"invalid saved encounter roll");Reject(n=>n["LowerMallStates"]![0]!["Number"]=99,"unknown source location");Reject(n=>n["LowerMallXpAwarded"]=500,"unearned location XP");Reject(n=>n["Campaign"]!["LowerMall"]=null,"chapter state without opt-in");
+  var old=World.New(CampaignLoader.Load(CampaignLoader.BundledSocialPath));old.Save(path);var legacy=JsonNode.Parse(File.ReadAllText(path))!;legacy["Version"]=34;foreach(var key in new[]{"LowerMallStates","LowerMallEffects","LowerMallXpAwarded","LowerMallXpRemainder"})legacy.AsObject().Remove(key);File.WriteAllText(path,legacy.ToJsonString());old=World.Load(path);check(old.Version==World.CurrentSaveVersion&&!old.LowerMallEnabled&&old.SocialEnabled&&old.Campaign!.Areas.Count==1,"Phase 22 v34 migration keeps its original campaign without introducing new areas, loot or actors");File.Delete(path);
+  if(route)ExpeditionTests.RunFullRoute(check,CampaignLoader.BundledLower18Path,true,false,true,true,true,true,true,true,true,true,true);
+ }
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Framework.DesktopGL</id>
+    <version>3.8.5</version>
+    <authors>MonoGame Team</authors>
+    <license type="expression">MS-PL</license>
+    <licenseUrl>https://licenses.nuget.org/MS-PL</licenseUrl>
+    <icon>Icon.png</icon>
+    <readme>README-packages.md</readme>
+    <projectUrl>https://www.monogame.net/</projectUrl>
+    <description>The MonoGame runtime supporting Windows, Linux and macOS using SDL2 and OpenGL.</description>
+    <tags>monogame .net core core .net standard standard desktopgl</tags>
+    <repository type="git" url="https://github.com/MonoGame/MonoGame" commit="4f9e37276977996547de01510249279ddcc67eb7" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="MonoGame.Library.OpenAL" version="1.24.3.4" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Library.SDL" version="2.32.10.2" exclude="Build,Analyzers" />
+        <dependency id="NVorbis" version="0.10.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

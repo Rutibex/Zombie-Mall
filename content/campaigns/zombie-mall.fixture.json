@@ -1,0 +1,1132 @@
+{
+  "schemaVersion": 1,
+  "id": "campaign.zombie-mall.fixture",
+  "name": "Zombie Mall Content Test",
+  "description": "Inspect the room, speak to the survivor, and recover supplies. See Journal.",
+  "startAreaId": "loc.lower.01",
+  "areas": [
+    {
+      "id": "loc.lower.01",
+      "name": "Campaign Test Room",
+      "source": {
+        "auditId": "loc.lower.01",
+        "pageStart": 195,
+        "pageEnd": 197,
+        "note": "Synthetic test footprint using this audit ID; not the final travel-agency map."
+      },
+      "floors": [
+        {
+          "x": 2,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 13
+        },
+        {
+          "x": 2,
+          "y": 14
+        },
+        {
+          "x": 2,
+          "y": 15
+        },
+        {
+          "x": 2,
+          "y": 16
+        },
+        {
+          "x": 2,
+          "y": 17
+        },
+        {
+          "x": 2,
+          "y": 18
+        },
+        {
+          "x": 2,
+          "y": 19
+        },
+        {
+          "x": 2,
+          "y": 20
+        },
+        {
+          "x": 3,
+          "y": 12
+        },
+        {
+          "x": 3,
+          "y": 13
+        },
+        {
+          "x": 3,
+          "y": 14
+        },
+        {
+          "x": 3,
+          "y": 15
+        },
+        {
+          "x": 3,
+          "y": 16
+        },
+        {
+          "x": 3,
+          "y": 17
+        },
+        {
+          "x": 3,
+          "y": 18
+        },
+        {
+          "x": 3,
+          "y": 19
+        },
+        {
+          "x": 3,
+          "y": 20
+        },
+        {
+          "x": 4,
+          "y": 12
+        },
+        {
+          "x": 4,
+          "y": 13
+        },
+        {
+          "x": 4,
+          "y": 14
+        },
+        {
+          "x": 4,
+          "y": 15
+        },
+        {
+          "x": 4,
+          "y": 16
+        },
+        {
+          "x": 4,
+          "y": 17
+        },
+        {
+          "x": 4,
+          "y": 18
+        },
+        {
+          "x": 4,
+          "y": 19
+        },
+        {
+          "x": 4,
+          "y": 20
+        },
+        {
+          "x": 5,
+          "y": 12
+        },
+        {
+          "x": 5,
+          "y": 13
+        },
+        {
+          "x": 5,
+          "y": 14
+        },
+        {
+          "x": 5,
+          "y": 15
+        },
+        {
+          "x": 5,
+          "y": 16
+        },
+        {
+          "x": 5,
+          "y": 17
+        },
+        {
+          "x": 5,
+          "y": 18
+        },
+        {
+          "x": 5,
+          "y": 19
+        },
+        {
+          "x": 5,
+          "y": 20
+        },
+        {
+          "x": 6,
+          "y": 12
+        },
+        {
+          "x": 6,
+          "y": 13
+        },
+        {
+          "x": 6,
+          "y": 14
+        },
+        {
+          "x": 6,
+          "y": 15
+        },
+        {
+          "x": 6,
+          "y": 16
+        },
+        {
+          "x": 6,
+          "y": 17
+        },
+        {
+          "x": 6,
+          "y": 18
+        },
+        {
+          "x": 6,
+          "y": 19
+        },
+        {
+          "x": 6,
+          "y": 20
+        },
+        {
+          "x": 7,
+          "y": 12
+        },
+        {
+          "x": 7,
+          "y": 13
+        },
+        {
+          "x": 7,
+          "y": 14
+        },
+        {
+          "x": 7,
+          "y": 15
+        },
+        {
+          "x": 7,
+          "y": 16
+        },
+        {
+          "x": 7,
+          "y": 17
+        },
+        {
+          "x": 7,
+          "y": 18
+        },
+        {
+          "x": 7,
+          "y": 19
+        },
+        {
+          "x": 7,
+          "y": 20
+        },
+        {
+          "x": 8,
+          "y": 12
+        },
+        {
+          "x": 8,
+          "y": 13
+        },
+        {
+          "x": 8,
+          "y": 14
+        },
+        {
+          "x": 8,
+          "y": 15
+        },
+        {
+          "x": 8,
+          "y": 16
+        },
+        {
+          "x": 8,
+          "y": 17
+        },
+        {
+          "x": 8,
+          "y": 18
+        },
+        {
+          "x": 8,
+          "y": 19
+        },
+        {
+          "x": 8,
+          "y": 20
+        },
+        {
+          "x": 9,
+          "y": 12
+        },
+        {
+          "x": 9,
+          "y": 13
+        },
+        {
+          "x": 9,
+          "y": 14
+        },
+        {
+          "x": 9,
+          "y": 15
+        },
+        {
+          "x": 9,
+          "y": 16
+        },
+        {
+          "x": 9,
+          "y": 17
+        },
+        {
+          "x": 9,
+          "y": 18
+        },
+        {
+          "x": 9,
+          "y": 19
+        },
+        {
+          "x": 9,
+          "y": 20
+        },
+        {
+          "x": 10,
+          "y": 12
+        },
+        {
+          "x": 10,
+          "y": 13
+        },
+        {
+          "x": 10,
+          "y": 14
+        },
+        {
+          "x": 10,
+          "y": 15
+        },
+        {
+          "x": 10,
+          "y": 16
+        },
+        {
+          "x": 10,
+          "y": 17
+        },
+        {
+          "x": 10,
+          "y": 18
+        },
+        {
+          "x": 10,
+          "y": 19
+        },
+        {
+          "x": 10,
+          "y": 20
+        },
+        {
+          "x": 11,
+          "y": 12
+        },
+        {
+          "x": 11,
+          "y": 13
+        },
+        {
+          "x": 11,
+          "y": 14
+        },
+        {
+          "x": 11,
+          "y": 15
+        },
+        {
+          "x": 11,
+          "y": 16
+        },
+        {
+          "x": 11,
+          "y": 17
+        },
+        {
+          "x": 11,
+          "y": 18
+        },
+        {
+          "x": 11,
+          "y": 19
+        },
+        {
+          "x": 11,
+          "y": 20
+        },
+        {
+          "x": 12,
+          "y": 15
+        },
+        {
+          "x": 12,
+          "y": 16
+        },
+        {
+          "x": 12,
+          "y": 17
+        },
+        {
+          "x": 13,
+          "y": 15
+        },
+        {
+          "x": 13,
+          "y": 16
+        },
+        {
+          "x": 13,
+          "y": 17
+        },
+        {
+          "x": 14,
+          "y": 15
+        },
+        {
+          "x": 14,
+          "y": 16
+        },
+        {
+          "x": 14,
+          "y": 17
+        },
+        {
+          "x": 15,
+          "y": 15
+        },
+        {
+          "x": 15,
+          "y": 16
+        },
+        {
+          "x": 15,
+          "y": 17
+        },
+        {
+          "x": 16,
+          "y": 15
+        },
+        {
+          "x": 16,
+          "y": 16
+        },
+        {
+          "x": 16,
+          "y": 17
+        },
+        {
+          "x": 17,
+          "y": 15
+        },
+        {
+          "x": 17,
+          "y": 16
+        },
+        {
+          "x": 17,
+          "y": 17
+        },
+        {
+          "x": 18,
+          "y": 11
+        },
+        {
+          "x": 18,
+          "y": 12
+        },
+        {
+          "x": 18,
+          "y": 13
+        },
+        {
+          "x": 18,
+          "y": 14
+        },
+        {
+          "x": 18,
+          "y": 15
+        },
+        {
+          "x": 18,
+          "y": 16
+        },
+        {
+          "x": 18,
+          "y": 17
+        },
+        {
+          "x": 18,
+          "y": 18
+        },
+        {
+          "x": 18,
+          "y": 19
+        },
+        {
+          "x": 18,
+          "y": 20
+        },
+        {
+          "x": 19,
+          "y": 11
+        },
+        {
+          "x": 19,
+          "y": 12
+        },
+        {
+          "x": 19,
+          "y": 13
+        },
+        {
+          "x": 19,
+          "y": 14
+        },
+        {
+          "x": 19,
+          "y": 15
+        },
+        {
+          "x": 19,
+          "y": 16
+        },
+        {
+          "x": 19,
+          "y": 17
+        },
+        {
+          "x": 19,
+          "y": 18
+        },
+        {
+          "x": 19,
+          "y": 19
+        },
+        {
+          "x": 19,
+          "y": 20
+        },
+        {
+          "x": 20,
+          "y": 11
+        },
+        {
+          "x": 20,
+          "y": 12
+        },
+        {
+          "x": 20,
+          "y": 13
+        },
+        {
+          "x": 20,
+          "y": 14
+        },
+        {
+          "x": 20,
+          "y": 15
+        },
+        {
+          "x": 20,
+          "y": 16
+        },
+        {
+          "x": 20,
+          "y": 17
+        },
+        {
+          "x": 20,
+          "y": 18
+        },
+        {
+          "x": 20,
+          "y": 19
+        },
+        {
+          "x": 20,
+          "y": 20
+        },
+        {
+          "x": 21,
+          "y": 11
+        },
+        {
+          "x": 21,
+          "y": 12
+        },
+        {
+          "x": 21,
+          "y": 13
+        },
+        {
+          "x": 21,
+          "y": 14
+        },
+        {
+          "x": 21,
+          "y": 15
+        },
+        {
+          "x": 21,
+          "y": 16
+        },
+        {
+          "x": 21,
+          "y": 17
+        },
+        {
+          "x": 21,
+          "y": 18
+        },
+        {
+          "x": 21,
+          "y": 19
+        },
+        {
+          "x": 21,
+          "y": 20
+        },
+        {
+          "x": 22,
+          "y": 11
+        },
+        {
+          "x": 22,
+          "y": 12
+        },
+        {
+          "x": 22,
+          "y": 13
+        },
+        {
+          "x": 22,
+          "y": 14
+        },
+        {
+          "x": 22,
+          "y": 15
+        },
+        {
+          "x": 22,
+          "y": 16
+        },
+        {
+          "x": 22,
+          "y": 17
+        },
+        {
+          "x": 22,
+          "y": 18
+        },
+        {
+          "x": 22,
+          "y": 19
+        },
+        {
+          "x": 22,
+          "y": 20
+        },
+        {
+          "x": 23,
+          "y": 11
+        },
+        {
+          "x": 23,
+          "y": 12
+        },
+        {
+          "x": 23,
+          "y": 13
+        },
+        {
+          "x": 23,
+          "y": 14
+        },
+        {
+          "x": 23,
+          "y": 15
+        },
+        {
+          "x": 23,
+          "y": 16
+        },
+        {
+          "x": 23,
+          "y": 17
+        },
+        {
+          "x": 23,
+          "y": 18
+        },
+        {
+          "x": 23,
+          "y": 19
+        },
+        {
+          "x": 23,
+          "y": 20
+        },
+        {
+          "x": 24,
+          "y": 11
+        },
+        {
+          "x": 24,
+          "y": 12
+        },
+        {
+          "x": 24,
+          "y": 13
+        },
+        {
+          "x": 24,
+          "y": 14
+        },
+        {
+          "x": 24,
+          "y": 15
+        },
+        {
+          "x": 24,
+          "y": 16
+        },
+        {
+          "x": 24,
+          "y": 17
+        },
+        {
+          "x": 24,
+          "y": 18
+        },
+        {
+          "x": 24,
+          "y": 19
+        },
+        {
+          "x": 24,
+          "y": 20
+        },
+        {
+          "x": 25,
+          "y": 11
+        },
+        {
+          "x": 25,
+          "y": 12
+        },
+        {
+          "x": 25,
+          "y": 13
+        },
+        {
+          "x": 25,
+          "y": 14
+        },
+        {
+          "x": 25,
+          "y": 15
+        },
+        {
+          "x": 25,
+          "y": 16
+        },
+        {
+          "x": 25,
+          "y": 17
+        },
+        {
+          "x": 25,
+          "y": 18
+        },
+        {
+          "x": 25,
+          "y": 19
+        },
+        {
+          "x": 25,
+          "y": 20
+        },
+        {
+          "x": 26,
+          "y": 11
+        },
+        {
+          "x": 26,
+          "y": 12
+        },
+        {
+          "x": 26,
+          "y": 13
+        },
+        {
+          "x": 26,
+          "y": 14
+        },
+        {
+          "x": 26,
+          "y": 15
+        },
+        {
+          "x": 26,
+          "y": 16
+        },
+        {
+          "x": 26,
+          "y": 17
+        },
+        {
+          "x": 26,
+          "y": 18
+        },
+        {
+          "x": 26,
+          "y": 19
+        },
+        {
+          "x": 26,
+          "y": 20
+        }
+      ],
+      "actors": [
+        {
+          "actorId": "actor.fixture.leader",
+          "position": {
+            "x": 6,
+            "y": 16
+          }
+        },
+        {
+          "actorId": "actor.fixture.partner",
+          "position": {
+            "x": 5,
+            "y": 17
+          }
+        },
+        {
+          "actorId": "actor.global.t1.01",
+          "position": {
+            "x": 22,
+            "y": 16
+          }
+        }
+      ],
+      "features": [
+        {
+          "id": "feature.fixture.supply-box",
+          "name": "Supply Box",
+          "kind": "container",
+          "position": {
+            "x": 9,
+            "y": 19
+          },
+          "contents": [
+            {
+              "itemId": "item.commodity.001",
+              "quantity": 3
+            },
+            {
+              "itemId": "item.commodity.004",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "id": "feature.fixture.door",
+          "name": "Service Door",
+          "kind": "door",
+          "position": {
+            "x": 16,
+            "y": 16
+          }
+        },
+        {
+          "id": "feature.fixture.survivor",
+          "name": "Waiting Survivor",
+          "kind": "npc",
+          "position": {
+            "x": 8,
+            "y": 14
+          },
+          "dialogueId": "dialogue.fixture.survivor"
+        },
+        {
+          "id": "feature.fixture.radio",
+          "name": "Emergency Radio",
+          "kind": "event",
+          "position": {
+            "x": 9,
+            "y": 14
+          },
+          "eventId": "event.fixture.radio"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "item.melee.006",
+      "name": "Crowbar",
+      "source": {
+        "auditId": "item.melee.006",
+        "pageStart": 19,
+        "pageEnd": 19,
+        "note": "Source melee row; fixture uses existing basic attack rules."
+      },
+      "description": "A scavenged crowbar. Phase 3 content test weapon.",
+      "kind": "Weapon",
+      "slot": "Weapon",
+      "weight": 5,
+      "maxStack": 1,
+      "value": 5,
+      "damageDie": 6
+    },
+    {
+      "id": "item.armour.001",
+      "name": "Leather Jacket",
+      "source": {
+        "auditId": "item.armour.001",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "note": ""
+      },
+      "description": "Adds 1 AC in this fixture; full armour conversion is Phase 18.",
+      "kind": "Armor",
+      "slot": "Armor",
+      "weight": 4,
+      "maxStack": 1,
+      "value": 150,
+      "armorBonus": 1
+    },
+    {
+      "id": "item.commodity.001",
+      "name": "Canned Beans",
+      "source": {
+        "auditId": "item.commodity.001",
+        "pageStart": 15,
+        "pageEnd": 15,
+        "note": ""
+      },
+      "description": "A sealed can. Food and secured-resource XP are later phases.",
+      "kind": "Misc",
+      "weight": 1,
+      "maxStack": 20,
+      "value": 3
+    },
+    {
+      "id": "item.commodity.004",
+      "name": "Bottled Water",
+      "source": {
+        "auditId": "item.commodity.004",
+        "pageStart": 15,
+        "pageEnd": 15,
+        "note": ""
+      },
+      "description": "Sealed bottled water; no consumption or XP handler yet.",
+      "kind": "Misc",
+      "weight": 1,
+      "maxStack": 20,
+      "value": 2
+    }
+  ],
+  "actors": [
+    {
+      "id": "actor.fixture.leader",
+      "name": "Alex",
+      "source": {
+        "auditId": "class.strong",
+        "pageStart": 112,
+        "pageEnd": 118,
+        "note": "Provisional Fighter rules chassis; full Strong Survivor class is not implemented."
+      },
+      "portrait": 0,
+      "role": "Fixture scavenger",
+      "hitPoints": 28,
+      "armorClass": 11,
+      "attackBonus": 5,
+      "damageBonus": 3,
+      "attackName": "Crowbar swing",
+      "weaponId": "item.melee.006",
+      "armorId": "item.armour.001",
+      "abilities": {
+        "strength": 16,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 10
+      }
+    },
+    {
+      "id": "actor.fixture.partner",
+      "name": "Sam",
+      "source": {
+        "auditId": "class.wise",
+        "pageStart": 122,
+        "pageEnd": 126,
+        "note": "Provisional rules chassis, not the Wise Survivor class."
+      },
+      "portrait": 1,
+      "role": "Fixture lookout",
+      "hitPoints": 24,
+      "armorClass": 12,
+      "attackBonus": 4,
+      "damageBonus": 2,
+      "attackName": "Crowbar swing",
+      "weaponId": "item.melee.006",
+      "armorId": "item.armour.001"
+    },
+    {
+      "id": "actor.global.t1.01",
+      "name": "Shambler",
+      "source": {
+        "auditId": "actor.global.t1.01",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "note": ""
+      },
+      "enemy": true,
+      "role": "Shambler",
+      "portrait": 2,
+      "hitPoints": 22,
+      "armorClass": 8,
+      "speedFeet": 20,
+      "attackBonus": 2,
+      "damageDie": 6,
+      "attackName": "Slam",
+      "abilities": {
+        "strength": 10,
+        "dexterity": 6,
+        "constitution": 16,
+        "intelligence": 3,
+        "wisdom": 6,
+        "charisma": 5
+      }
+    }
+  ],
+  "encounters": [
+    {
+      "id": "encounter.fixture.shambler",
+      "areaId": "loc.lower.01",
+      "group": 0,
+      "actorIds": [
+        "actor.global.t1.01"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "dialogue.fixture.survivor",
+      "speakerName": "Waiting Survivor",
+      "speakerPortrait": 3,
+      "startNodeId": "greeting",
+      "nodes": [
+        {
+          "id": "greeting",
+          "text": "The supply box is still sealed. Check the radio, then look through the service door. I will stay here.",
+          "choices": [
+            {
+              "id": "ask",
+              "text": "What is this place?",
+              "nextNodeId": "explain",
+              "consequence": {
+                "setFlags": [
+                  "flag.fixture.spoken"
+                ]
+              }
+            },
+            {
+              "id": "leave",
+              "text": "We will look around.",
+              "endsConversation": true,
+              "consequence": {
+                "setFlags": [
+                  "flag.fixture.spoken"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "explain",
+          "text": "A small content test. Its room, people, supplies and objectives came from the campaign JSON file.",
+          "choices": [
+            {
+              "id": "done",
+              "text": "Understood.",
+              "endsConversation": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event.fixture.radio",
+      "once": true,
+      "effects": [
+        {
+          "handler": "log",
+          "text": "The radio crackles: Shelter seekers, stay quiet and conserve your supplies."
+        },
+        {
+          "handler": "set-flag",
+          "flag": "flag.fixture.radio"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective.fixture.speak",
+      "text": "Speak to the waiting survivor.",
+      "trigger": "FlagSet",
+      "targetId": "flag.fixture.spoken"
+    },
+    {
+      "id": "objective.fixture.radio",
+      "text": "Listen to the emergency radio.",
+      "trigger": "FlagSet",
+      "targetId": "flag.fixture.radio"
+    },
+    {
+      "id": "objective.fixture.supplies",
+      "text": "Recover at least one can of beans.",
+      "trigger": "ItemOwned",
+      "targetId": "item.commodity.001"
+    },
+    {
+      "id": "objective.fixture.door",
+      "text": "Open the service door.",
+      "trigger": "FeatureUsed",
+      "targetId": "feature.fixture.door"
+    },
+    {
+      "id": "objective.fixture.clear",
+      "text": "Clear the shambler encounter.",
+      "trigger": "EncounterCleared",
+      "targetId": "encounter.fixture.shambler"
+    }
+  ]
+}

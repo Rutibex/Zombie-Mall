@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>ZombieMall</AssemblyName><Product>Zombie Mall</Product><Title>Zombie Mall</Title><Version>0.33.2</Version><ApplicationIcon Condition="Exists('Assets/icon.ico')">Assets/icon.ico</ApplicationIcon></PropertyGroup>
+ <ItemGroup>
+  <ProjectReference Include="../Ashen.Core/Ashen.Core.csproj" />
+  <ProjectReference Include="../Playroma.Sound.Generators/Playroma.Sound.Generators.csproj" />
+  <ProjectReference Include="../PlayromaMusic.Generators/PlayromaMusic.Generators.csproj" />
+  <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.5" />
+  <None Update="Assets/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Always" ExcludeFromSingleFile="true" />
+ </ItemGroup>
+</Project>

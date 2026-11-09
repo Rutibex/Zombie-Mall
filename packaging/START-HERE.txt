@@ -1,0 +1,19 @@
+ZOMBIE MALL — WINDOWS x64 PORTABLE EDITION (0.33.2)
+
+1. Extract the FULL ZIP to a new folder (do not launch inside the ZIP).
+2. Double-click ZombieMall.exe.
+3. Choose START ZOMBIE MALL.
+
+Keep Assets, Campaigns, and StylePacks beside ZombieMall.exe.
+No .NET SDK or installer is needed for this self-contained Windows release.
+The game requires a working OpenGL graphics driver.
+
+G = select group; left-click = move/interact; Space = pause exploration;
+Enter = end combat turn; M/J/I = map/journal/inventory;
+F5/F9 = quick save/load; F1 = help.
+
+For more details, read README.md and docs/PLAYING.md.
+Saves are stored in %LOCALAPPDATA%\ZombieMall.
+
+Original work by Michael Robinson; CC BY-SA 4.0 (separate component
+licences apply; retain LICENSE, NOTICE.md, CREDITS.md and licenses/).

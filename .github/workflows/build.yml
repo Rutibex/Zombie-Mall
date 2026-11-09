@@ -1,0 +1,30 @@
+name: Build and regression checks
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-check:
+    name: .NET 10 (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Restore
+        run: dotnet restore ZombieMall.sln
+      - name: Build
+        run: dotnet build ZombieMall.sln --configuration Release --no-restore -m:1
+      - name: Run headless regression executable
+        run: dotnet run --project tests/Ashen.Tests/Ashen.Tests.csproj --configuration Release --no-build

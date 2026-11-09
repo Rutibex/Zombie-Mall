@@ -1,0 +1,49 @@
+# .NET / IDE
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+*.tmp
+*.bak
+*.orig
+*.pidb
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+# Packaged releases, temporary outputs
+/Windows/
+/dist/
+/artifacts/
+/_release/
+/*.zip
+*.sha256
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# OS and user data
+.DS_Store
+Thumbs.db
+*.crash
+/saves/
+/Saves/
+/Profiles/
+/preferences.json
+/journey.json
+/crash.log
+# Temporary/partial content and diagnostics
+**/.*.json.*
+/docs/verification/
+/docs/audit/
+/docs/screenshots/.*/
+/docs/screenshots/.*
+/references/
+/screenshot*.png
+/preview.png

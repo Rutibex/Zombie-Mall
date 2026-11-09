@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Library.SDL</id>
+    <version>2.32.10.2</version>
+    <title>MonoGame build of SDL Library</title>
+    <authors>MonoGame.Library.SDL</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Icon.png</icon>
+    <readme>README.md</readme>
+    <description>This package contains binaries for SDL library built for usage with MonoGame.</description>
+    <repository type="git" url="https://github.com/MonoGame/MonoGame.Library.SDL" commit="9f64afcc0c04d1714c412f8be2704d47096a6b9e" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
